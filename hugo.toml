@@ -1,4 +1,5 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://szakky.github.io/"
+relativeURLs = true
 title = "szakky's Blog"
 theme = "PaperMod"
 
