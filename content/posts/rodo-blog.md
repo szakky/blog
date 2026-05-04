@@ -42,20 +42,20 @@ RodoのURL: [https://rodo.yashiro.org](https://rodo.yashiro.org)
 本アプリは、シンプルかつ迷わず使えるUIを意識して設計しています。
 ### トップページとルーム作成
 
-![toppage](/images/toppage.png)
+![toppage](/blog/images/toppage.png)
 
 トップページにはルーム名を設けています。 ここで入力した文字列がそのまま「ルーム名」となり、新しいルームが作成されます。次回以降も同じ文字列を入力するだけで、すぐに同じルームにアクセスできる手軽な仕組みにしました。これにより面倒なユーザー登録なしで、すぐに使い始められます。
 
 ### ルームページとタスクの追加
 
 ### 
-![roompage](/images/roompage.png)
+![roompage](/blog/images/roompage.png)
 
 ルームに入ると、共有されているタスク一覧が表示されます。 「読書」や「運動」など毎日の作業を、直感的な操作でどんどん追加していくことができます。
 
 ### タグとメモ入力
 
-![tags-memo](/images/tags-memo.png)
+![tags-memo](/blog/images/tags-memo.png)
 
 単にタスク一覧を表示するだけでなく、それぞれのタスクに「タグ」と「メモ」を追加できるようにしています。 これにより、タスクのジャンル分け（例：「日課」「家事」など）や、メモにちょっとした備忘録を残すことができます。
 
@@ -65,7 +65,7 @@ RodoのURL: [https://rodo.yashiro.org](https://rodo.yashiro.org)
 
 以下のように学校のグループワークをする際に作業分担を管理する時にも有用です。
 
-![活用事例](/images/example.png)
+![活用事例](/blog/images/example.png)
 
 ---
 

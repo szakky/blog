@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on szakky&#39;s Blog</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://szakky.github.io/blog/posts/</link>
     <description>Recent content in Posts on szakky&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Mon, 04 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://szakky.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rodo Tech Stack</title>
-      <link>http://localhost:1313/posts/rodo-tech-stack/</link>
+      <link>https://szakky.github.io/blog/posts/rodo-tech-stack/</link>
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/rodo-tech-stack/</guid>
+      <guid>https://szakky.github.io/blog/posts/rodo-tech-stack/</guid>
       <description>&lt;p&gt;ready&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>ルーム型To-Doアプリを作ってみた</title>
-      <link>http://localhost:1313/posts/rodo-blog/</link>
+      <link>https://szakky.github.io/blog/posts/rodo-blog/</link>
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/rodo-blog/</guid>
+      <guid>https://szakky.github.io/blog/posts/rodo-blog/</guid>
       <description>&lt;h1 id=&#34;目次&#34;&gt;目次&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -53,18 +53,18 @@
 &lt;h2 id=&#34;具体的な使い方&#34;&gt;具体的な使い方&lt;/h2&gt;
 &lt;p&gt;本アプリは、シンプルかつ迷わず使えるUIを意識して設計しています。&lt;/p&gt;
 &lt;h3 id=&#34;トップページとルーム作成&#34;&gt;トップページとルーム作成&lt;/h3&gt;
-&lt;p&gt;&lt;img alt=&#34;toppage&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/toppage.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;toppage&#34; loading=&#34;lazy&#34; src=&#34;https://szakky.github.io/blog/images/toppage.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;トップページにはルーム名を設けています。 ここで入力した文字列がそのまま「ルーム名」となり、新しいルームが作成されます。次回以降も同じ文字列を入力するだけで、すぐに同じルームにアクセスできる手軽な仕組みにしました。これにより面倒なユーザー登録なしで、すぐに使い始められます。&lt;/p&gt;
 &lt;h3 id=&#34;ルームページとタスクの追加&#34;&gt;ルームページとタスクの追加&lt;/h3&gt;
 &lt;h3&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;img alt=&#34;roompage&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/roompage.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;roompage&#34; loading=&#34;lazy&#34; src=&#34;https://szakky.github.io/blog/images/roompage.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;ルームに入ると、共有されているタスク一覧が表示されます。 「読書」や「運動」など毎日の作業を、直感的な操作でどんどん追加していくことができます。&lt;/p&gt;
 &lt;h3 id=&#34;タグとメモ入力&#34;&gt;タグとメモ入力&lt;/h3&gt;
-&lt;p&gt;&lt;img alt=&#34;tags-memo&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/tags-memo.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;tags-memo&#34; loading=&#34;lazy&#34; src=&#34;https://szakky.github.io/blog/images/tags-memo.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;単にタスク一覧を表示するだけでなく、それぞれのタスクに「タグ」と「メモ」を追加できるようにしています。 これにより、タスクのジャンル分け（例：「日課」「家事」など）や、メモにちょっとした備忘録を残すことができます。&lt;/p&gt;
 &lt;h2 id=&#34;その他の活用事例&#34;&gt;その他の活用事例&lt;/h2&gt;
 &lt;p&gt;以下のように学校のグループワークをする際に作業分担を管理する時にも有用です。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;活用事例&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/example.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;活用事例&#34; loading=&#34;lazy&#34; src=&#34;https://szakky.github.io/blog/images/example.png&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;実装とアプリケーション基盤&#34;&gt;実装とアプリケーション基盤&lt;/h2&gt;
 &lt;p&gt;バックエンドからフロントエンドまで、できるだけシンプルな構成を目指しました。&lt;/p&gt;
