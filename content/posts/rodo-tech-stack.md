@@ -34,69 +34,7 @@ DB: MySQL
 
 インフラ: docker ,kubernetes ,cloudflare
 
-```mermaid
-flowchart LR
-    %% 外部ネットワーク
-    Client((client))
-    
-    subgraph CF_Edge [Cloudflare Edge]
-        CF(Cloudflare<br/>rodo.yashiro.org)
-    end
-    
-    %% Kubernetes Cluster
-    subgraph k8s [Kubernetes Cluster]
-        direction LR
-        
-        subgraph IngressLayer [Ingress Layer]
-            cPod([cloudflared Pod])
-        end
-        
-        subgraph AppLayer [App Layer]
-            direction TB
-            tSvc([todo-api service])
-            tPod(todo-api Pod<br/>)
-            tSvc --> tPod
-        end
-        
-        subgraph DBLayer [Data Layer]
-            direction TB
-            mSvc([mysql service])
-            mPod(mysql Pod<br/>MySQL 8.0)
-            mSvc --> mPod
-        end
-        
-        %% k8s内部のルーティング
-        cPod -- HTTP/内部通信 --> tSvc
-        tPod -- "TCP:3306" --> mSvc
-    end
-    
-    %% 外部とエッジの通信
-    Client -- "HTTPSリクエスト" --> CF
-    
-    %% Cloudflare Tunnel (強調表示)
-    cPod =="Outbound Tunnel<br/>(Inboundポート開放不要)"=== CF
-
-    %% スタイリング
-    classDef default fill:#fff,stroke:#333,stroke-width:1px
-    classDef client fill:#f8f9fa,stroke:#6c757d,stroke-width:1px,color:#000
-    classDef cloudflare fill:#fff3e0,stroke:#f97316,stroke-width:2px,color:#c2410c,font-weight:bold
-    classDef tunnel fill:#eff6ff,stroke:#3b82f6,stroke-width:2px,color:#1d4ed8,font-weight:bold
-    classDef app fill:#fefce8,stroke:#eab308,stroke-width:2px,color:#a16207,font-weight:bold
-    classDef db fill:#f0fdf4,stroke:#22c55e,stroke-width:2px,color:#15803d,font-weight:bold
-    
-    class Client client
-    class CF cloudflare
-    class cPod tunnel
-    class tSvc,tPod app
-    class mSvc,mPod db
-    
-    %% サブグラフのスタイリング
-    style k8s fill:#f8fafc,stroke:#cbd5e1,stroke-width:2px,rx:10,ry:10
-    style IngressLayer fill:#ffffff,stroke:#e2e8f0,stroke-width:1px,rx:5,ry:5
-    style AppLayer fill:#ffffff,stroke:#e2e8f0,stroke-width:1px,rx:5,ry:5
-    style DBLayer fill:#ffffff,stroke:#e2e8f0,stroke-width:1px,rx:5,ry:5
-    style CF_Edge fill:#fff7ed,stroke:#fed7aa,stroke-width:2px,stroke-dasharray: 5 5
-```
+![フローチャート](/blog/images/rodo-flow.png)
 
 
 # アプリケーション
