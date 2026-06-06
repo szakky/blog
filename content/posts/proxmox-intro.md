@@ -1,6 +1,6 @@
 ---
 title: "Ubuntuインストールで沼った私が、Proxmoxを入れたら一瞬で解決した話"
-data: 2026-06-05
+date: 2026-06-05
 draft: false
 ---
 
