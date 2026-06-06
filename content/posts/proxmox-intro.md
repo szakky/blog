@@ -126,5 +126,6 @@ UbuntuのISOイメージをアップロードし、仮想マシン作成ウィ�
 
 Ubuntu直インストール :
  [https://dev.classmethod.jp/articles/installed-ubuntu-on-a-disused-laptop/](https://dev.classmethod.jp/articles/installed-ubuntu-on-a-disused-laptop/)
+ 
 proxmoxインストール USB使用 :
  [https://zenn.dev/atsushifx/articles/dev-proxmox-setup-installmedia](https://zenn.dev/atsushifx/articles/dev-proxmox-setup-installmedia)
