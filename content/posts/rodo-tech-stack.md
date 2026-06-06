@@ -20,7 +20,7 @@ draft : false
 
 # はじめに
 
-前回の[ルーム型To-Doアプリを作ってみた]の技術スタックについてまとめていきます。
+前回の![https://szakky.github.io/blog/posts/rodo-blog/](ルーム型To-Doアプリを作ってみた)の技術スタックについてまとめていきます。
   
 以下はRodoのgithubリポジトリになります。
 

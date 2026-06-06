@@ -118,11 +118,13 @@ UbuntuのISOイメージをアップロードし、仮想マシン作成ウィ�
 
 今回はUbuntuを直接インストールしようとして失敗したものの、Proxmoxを導入することで無事にUbuntu環境を構築できました。
 
-さらにProxmoxを導入したことで、Ubuntuだけでなく様々なOSやコンテナ環境を簡単に構築できるようになったのは予想外の収穫でした。
+さらにProxmoxを導入したことで、Ubuntuだけでなく様々なOSやコンテナ環境を簡単に構築できるようになりました。
 
 次回は、Proxmox上に構築したサーバーでWebカメラから送られたデータを受信し、そのデータを外部へ公開する仕組みについて紹介したいと思います。
 
 ## 参考サイト
 
-Ubuntu直インストール : [https://dev.classmethod.jp/articles/installed-ubuntu-on-a-disused-laptop/](https://dev.classmethod.jp/articles/installed-ubuntu-on-a-disused-laptop/)
-proxmoxインストール USB使用 : [https://zenn.dev/atsushifx/articles/dev-proxmox-setup-installmedia](https://zenn.dev/atsushifx/articles/dev-proxmox-setup-installmedia)
+Ubuntu直インストール :
+ [https://dev.classmethod.jp/articles/installed-ubuntu-on-a-disused-laptop/](https://dev.classmethod.jp/articles/installed-ubuntu-on-a-disused-laptop/)
+proxmoxインストール USB使用 :
+ [https://zenn.dev/atsushifx/articles/dev-proxmox-setup-installmedia](https://zenn.dev/atsushifx/articles/dev-proxmox-setup-installmedia)
