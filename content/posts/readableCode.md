@@ -1,7 +1,7 @@
 ---
 title: "リーダブルコードを読んだ"
 date: 2026-10-13
-draft: true
+draft: false
 ---
 
 ## はじめに
